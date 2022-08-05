@@ -1,0 +1,10 @@
+/* el table 设置高*/
+.el-table--fit {
+    height: 100%;
+    width: 100%;
+}
+
+.el-table__inner-wrapper {
+    height: 100%;
+    width: 100%;
+}

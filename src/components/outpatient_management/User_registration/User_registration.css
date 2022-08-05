@@ -1,0 +1,24 @@
+/*.el-dialog {*/
+/*    width: 800px;*/
+/*    height: 100%;*/
+/*}*/
+
+.User {
+    width: 100%;
+    height: 100%;
+}
+
+.form1 {
+    margin-left: 150px;
+}
+
+/*.cell {*/
+/*    text-align: center;*/
+/*}*/
+
+
+
+/* 设置input 输入框的大小 */
+.el-form-item--default {
+    width: 80%;
+}

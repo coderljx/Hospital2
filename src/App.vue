@@ -1,27 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <div>
+    <RouterView />
+  </div>
 </template>
 
-<script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import HelloWorld from './components/HelloWorld.vue';
-
-@Options({
-  components: {
-    HelloWorld,
-  },
-})
-export default class App extends Vue {}
-</script>
+<script lang="ts" setup></script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+ body ,
+ #app ,
+ #app > div {
+   width: 100%;
+   height: 100vh;
+ }
+
+ /*::-webkit-scrollbar-track {*/
+ /*  !*-webkit-box-shadow:inset006pxrgba(0,0,0,0.3);*!*/
+ /*  border-radius:10px;*/
+ /*}*/
+
 </style>
